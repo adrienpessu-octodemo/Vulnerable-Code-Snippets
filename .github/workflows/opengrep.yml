@@ -35,7 +35,7 @@ jobs:
 
       - run: |
               echo "Download Open Grep"
-              curl -sL https://github.com/opengrep/opengrep/releases/download/v1.0.0-alpha.3/opengrep_manylinux_x86_64 -o /tmp/opengrep
+              curl -sL https://github.com/opengrep/opengrep/releases/download/v1.0.0-alpha.3/opengrep_manylinux_x86 -o /tmp/opengrep
               chmod +x /tmp/opengrep
               /tmp/opengrep --version
               /tmp/opengrep scan --sarif-output=sarif.json -f rules .
