@@ -39,7 +39,7 @@ jobs:
               chmod +x /tmp/opengrep
               /tmp/opengrep --version
               /tmp/opengrep --help
-              /tmp/opengrep scan --sarif-output=sarif.json -f .github/rules .
+              /tmp/opengrep scan --sarif-output=sarif.json .
 
       # Upload SARIF file generated in previous step
       - name: Upload SARIF file
