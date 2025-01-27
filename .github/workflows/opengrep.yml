@@ -38,6 +38,7 @@ jobs:
               curl -sL https://github.com/opengrep/opengrep/releases/download/v1.0.0-alpha.3/opengrep_manylinux_x86 -o /tmp/opengrep
               chmod +x /tmp/opengrep
               /tmp/opengrep --version
+              /tmp/opengrep --help
               /tmp/opengrep scan --sarif-output=sarif.json -f .github/rules .
 
       # Upload SARIF file generated in previous step
